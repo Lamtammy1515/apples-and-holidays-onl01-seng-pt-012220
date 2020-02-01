@@ -29,7 +29,8 @@ holiday_hash[:winter][:christmas] << supply
 holiday_hash[:winter][:new_years] << supply
 
 holiday_hash[:winter].each do |holiday, array|
-  
+  array << supply 
+end 
 
 end
 
