@@ -77,11 +77,10 @@ holiday_hash.each do |season, holiday|
   holiday.each do |halliday, array| 
     if array.include?("BBQ")
       new_array << halliday
-      new_array.join(" ")
     end
   end
 end
-
+new_array
 end
 
 
